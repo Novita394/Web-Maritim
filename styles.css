@@ -1,0 +1,167 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Apply Roboto font to navbar items */
+.navbar-nav .nav-link,
+.navbar .btn {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; /* Adjust the text color as desired */
+}
+.footer h5, 
+.footer .form-control, 
+.footer .btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+}
+
+.navbar-brand {
+  font-family: "Sono", sans-serif;
+}
+.custom-navbar {
+  background-color: #057676; /* Contoh warna hijau */
+}
+.navbar .btn-outline-light {
+  border-color: #ffffff00;
+  color: #ffffff;
+}
+
+.navbar .btn-outline-light:hover {
+  background-color: #FDFEFF;
+  color: #11ebf3;
+}
+
+.navbar .btn-light {
+  background-color: #FDFEFF;
+  color: #057676;
+}
+
+.navbar .btn-light:hover {
+  background-color: #e0e0e0;
+}
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* mengedit gambar pada hero */
+.hero-section-custom {
+  position: relative;
+  background: url("./images/Wisata\ Tirtohargo.webp") center center/cover no-repeat;
+  height: 600px;
+  margin: 65px 8px 8px 8px;
+  border-radius: 10px;
+}
+
+.hero-section .overlay {
+  background: rgba(1, 29, 34, 0.5);
+}
+
+.overlay-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+  font-size: 3.5rem;
+}
+
+.hero-section p {
+  font-size: 1.5rem;
+}
+
+.letter-spacing-custom-5 {
+  letter-spacing: 5px;
+}
+
+.letter-spacing-custom-3 {
+  letter-spacing: 3px;
+}
+
+.text-center-custom {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.card {
+  /* border: none; */
+  border-radius: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* Atur tinggi yang sama untuk semua gambar */
+  object-fit: cover; /* Memastikan gambar terpotong proporsional */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.container-fluid.dest-box-detail {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.no-p-left {
+  padding-left: 0 !important;
+}
+
+.no-p-left img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card.card-detail-bg {
+  background-color: #e9eff0;
+}
+.card-body {background-color: #A2ECE3;}
+
+.no-p-right {
+  padding-right: 0 !important;
+}
+
+.content-admin {
+  flex-grow: 1;
+}
+
+.footer {
+  background-color: #057676;
+}
+
+footer .input-group {
+  max-width: 300px;
+  margin: auto;
+}
+
+footer .input-group .form-control {
+  border-radius: 0;
+  padding: 0.75rem;
+}
+
+footer .input-group .btn {
+  background-color: #549EFF; /* Button background color */
+  color: #fff; /* Icon color */
+  border: none;
+}
+footer .fab {
+  font-size: 1.5rem;
+}
+
+footer a.text-white:hover {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+.footer .border-top {
+  border-color: rgba(75, 169, 197, 0.329) !important;
+}
